@@ -1,0 +1,9 @@
+.mainPage {
+    text-align: center;
+    grid-area: b;
+    color: black;
+    font-family: fantasy;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgba(255, 127, 80, 0.52);
+}

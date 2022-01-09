@@ -1,50 +1,29 @@
- body {
-   width: 100%;
-   height: 100vh;
- }
- #root {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100vw;
-   height: 100vh;
-   overflow: hidden;
- }
-.header {
-  text-align: center;
-  grid-area: h;
-  color: black;
-  font-family: fantasy;
-  font-size: 35px;
-  background-color: rgba(0, 255, 255, 0.41);
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .grid-conteiner {
-  width: 90%;
-  height: 90vh;
-  display: grid;
-  gap: 2%;
-  grid-template-columns: 1fr 15fr;
-  grid-template-rows: 1fr 3fr;
-  grid-template-areas: "h h"
+    width: 90%;
+    height: 90vh;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 1fr 15fr;
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: "h h"
                        "s b";
 }
 
-.sidebar {
-  text-align: center;
-  grid-area: s;
-  color: black;
-  font-family: fantasy;
-  font-size: 20px;
-  background-color: rgba(100, 149, 237, 0.51);
-}
 
-.mainpage {
-  text-align: center;
-  grid-area: b;
-  color: black;
-  font-family: fantasy;
-  font-size: 35px;
-  background-color: rgba(255, 127, 80, 0.52);
-}
+
+
 

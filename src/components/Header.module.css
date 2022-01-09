@@ -1,0 +1,27 @@
+.header {
+    grid-area: h;
+    display: grid;
+    grid-auto-columns: 1fr 10fr;
+    grid-template-areas: "avatar anotherText";
+    color: black;
+    font-family: fantasy;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.41);
+    gap: 2%
+}
+
+.avatar {
+    padding-top: 5px;
+    padding-left: 5px;
+    grid-area: avatar;
+
+}
+.another {
+    justify-content: left;
+    grid-area: anotherText;
+}
+.headerImg {
+    border-radius: 10px;
+    width: 200px;
+}
