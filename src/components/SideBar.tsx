@@ -1,17 +1,18 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import s from "./SideBar.module.css"
 
 export const SideBar = () => {
     return (
         <div className={s.sidebar}>
             <div>
-                <a href="#"><img src={"https://cdn-icons-png.flaticon.com/512/25/25694.png"}/></a>
+                <NavLink to="/homepage"><img src={"https://cdn-icons-png.flaticon.com/512/25/25694.png"}/></NavLink>
             </div>
             <div>
-                <a href="#"><img src={"https://cdn-icons-png.flaticon.com/512/25/25236.png"}/></a>
+                <NavLink to="/dialogs"><img src={"https://cdn-icons-png.flaticon.com/512/25/25236.png"}/></NavLink>
             </div>
             <div>
-                <a href="#"><img src={"https://cdn-icons-png.flaticon.com/512/25/25319.png"}/></a>
+                <NavLink to="/settings"><img src={"https://cdn-icons-png.flaticon.com/512/25/25319.png"}/></NavLink>
             </div>
         </div>
     )

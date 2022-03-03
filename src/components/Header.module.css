@@ -15,7 +15,6 @@
     padding-top: 5px;
     padding-left: 5px;
     grid-area: avatar;
-
 }
 .another {
     justify-content: left;
@@ -23,5 +22,5 @@
 }
 .headerImg {
     border-radius: 10px;
-    width: 200px;
+    width: 25vh;
 }
